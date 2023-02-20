@@ -27,6 +27,8 @@ public class Day26 {
         mc.show(); // Day26의 인스턴스 변수
 
         mc.s3 = "test";
+        // MemberClass.s3 = "test";
+
         System.out.println(Day26.MemberClass.s3);
         Day26.MemberClass.info();   // Static Member Method -> 객체로 접근 불가하기 때문에 class 생성이 필요.
     }
